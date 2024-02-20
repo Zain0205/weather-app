@@ -1,7 +1,7 @@
 function LocationAndTemperature() {
   return (
     <>
-      <div className="flex flex-col justify-between gap-y-10 mt-10 h-60">
+      <div className="flex flex-col justify-between gap-y-10 h-60">
         <div className="text-center">
           <h1 className="font-semibold text-2xl text-slate-100">Jakarta, ID</h1>
           <h3 className="font-semibold text-slate-100 text-xl mt-3">Clear</h3>
@@ -24,9 +24,6 @@ function LocationAndTemperature() {
           <p className="text-center font-semibold text-slate-100 w-1/4 border-r border-white">Set: 12.12PM</p>
           <p className="text-center font-semibold text-slate-100 w-1/4 border-r border-white">Lowest: -3°C</p>
           <p className="text-center font-semibold text-slate-100 w-1/4 border-r border-white">Highest: 20°C</p>
-        </div>
-        <div>
-          <button>5 Day Forecast</button>
         </div>
       </div>
     </>
