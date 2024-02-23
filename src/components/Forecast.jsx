@@ -23,7 +23,7 @@ function ForecastItem({icon, temp, time}) {
   return (
     <div className="flex flex-col items-center w-1/5 px-3">
       <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt="..." />
-      <h1 className="text-center font-semibold text-base text-slate-100">{time}</h1>
+      <h1 className="text-center font-semibold text-base mb-2 text-slate-100">{time}</h1>
       <h2 className="font-bold text-slate-100 text-xl">{temp.toFixed()}°C</h2>
     </div>
   );
