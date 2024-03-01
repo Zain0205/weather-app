@@ -10,7 +10,7 @@ function Forecast() {
   return (
     <div>
       <div className="border-b border-white pb-5 mb-2">
-        <h1 className="text-xl text-slate-100 font-semibold">5 Day Forecast / 3 Hour</h1>
+        <h1 className="text-xl text-slate-100 font-semibold">5 Day Forecast</h1>
       </div>
       <div className="flex flex-wrap justify-center">
         {weatherForecastData ? weatherForecastData.map((data, i) => <ForecastItem temp={data.main.temp} time={data.dt_txt} icon={data.weather[0].icon} key={i} />) : null}
